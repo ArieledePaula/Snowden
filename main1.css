@@ -11,6 +11,13 @@ body {
     margin: auto;
   }
   
+  .texto{
+    padding: 20px;
+    background-color: rgb(212, 207, 207);
+    border-radius: 20px;
+    border: #030303;
+  }
+  
   h2 {
     text-align: center;
     margin-bottom: 20px;
