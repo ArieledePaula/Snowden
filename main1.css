@@ -38,4 +38,29 @@ body {
     box-sizing: border-box;
   }
   
+  button {
+    display: block;
+    margin: 30px auto 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #313238;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(10, 10, 11);
+  }
+  
+  .guia {
+    display: none;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
   
