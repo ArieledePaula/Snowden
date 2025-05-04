@@ -7,7 +7,7 @@
 # 🔒 Funcionalidades
 
 ### Exibição de banner com aviso legal e link para a LGPD
-### Formulário com boas práticas:
+### Formulário com boas práticas
 ### Botão que mostra/oculta um Guia Interno de Conduta
 
 
