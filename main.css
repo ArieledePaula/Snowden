@@ -1,0 +1,19 @@
+.banner{
+    
+    background-color: rgb(188, 188, 211);
+    padding: 2px;
+    border: 1px solid #fcf4db;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.botao{
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+   
+}
