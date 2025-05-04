@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dados Sensíveis</title>
     <link rel="stylesheet" href="main1.css">
     <script src="main.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <p>teste</p>
+        <h2>Dados Sensíveis</h2>
+        <form>
+            <!-- O campo CPF exige mais cuidado porque é a sua identidade -->
+            <input type="text" name="cpf" placeholder="CPF">
 
+            <!-- O nome completo pode ser usado para identificação direta -->
+            <input type="text" name="nome" placeholder="Nome Completo">
+
+            <!-- E-mail pode ser alvo de golpes ou spam se exposto -->
+            <input type="email" name="email" placeholder="E-mail">
+
+            <!-- Endereço pode comprometer a segurança física do usuário -->
+            <input type="text" name="endereco" placeholder="Endereço">
+
+            <!-- Senhas jamais devem ser armazenadas, exibidas ou compartilhadas -->
+            <input type="password" name="senha" placeholder="Senha">
+
+        </form>
     </div>
 </body>
 </html>
